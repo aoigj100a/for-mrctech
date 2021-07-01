@@ -1,0 +1,132 @@
+@import "reset";
+
+.p-1 {
+  padding: 0 8px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 2px solid #777;
+  h1 a {
+    margin-left: 8px;
+    display: block;
+    width: 138px;
+    height: 34px;
+    background: url(../img/icon.jpg);
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  ul {
+    margin-right: 8px;
+  }
+
+  .user-icon li {
+    display: inline;
+    line-height: 34px;
+    color: Tomato;
+  }
+}
+
+.tag-list {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  .tag {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background: #eee;
+    color: black;
+  }
+  .active {
+    background: #555;
+    color: #fff;
+  }
+}
+
+.tool-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  .tool-bar-list {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    a {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      &:hover {
+        background: #ccc;
+      }
+    }
+    .tool img {
+      display: block;
+      margin: 0 auto;
+    }
+    .tool span {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      color: black;
+    }
+  }
+}
+
+.video-warp {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .card {
+    padding: 5px;
+  }
+  .card-info {
+    display: flex;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    .icon img {
+      display: inline-block;
+      width: 100px;
+    }
+    .title h2 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .title p {
+      font-size: 14px;
+      color: #aaa;
+    }
+  }
+}
