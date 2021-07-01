@@ -27,7 +27,7 @@ For detailed explanation on how things work, check out the [documentation](https
 
 ### 其他
   將切版原始檔案置於 static > for-mrctech切版 資料夾中，如果需要查看可以看該資料夾。
-  
+  目前完成度尚可，若有時間加強，可以做得更完善一點，請公司多多包涵。
 
 ## 使用技術說明
 首次使用Nuxt.js作為框架，發現Nuxt.js有幾大優點：
