@@ -25,6 +25,10 @@ For detailed explanation on how things work, check out the [documentation](https
 - CSS 預處理器 SCSS。
 - Git 版本控制。
 
+### 其他
+  將切版原始檔案置於 static > for-mrctech切版 資料夾中，如果需要查看可以看該資料夾。
+  
+
 ## 使用技術說明
 首次使用Nuxt.js作為框架，發現Nuxt.js有幾大優點：
  1. 將開發者需要做的事情簡化，變成一條龍的感覺。（例如：建立靜態站點、測試等事項。）
